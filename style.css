@@ -179,8 +179,14 @@ html, body {
 .wind h4, .humidity h4, .pressure h4, .sunrise-sunset h4 {
     text-decoration: underline wavy #f7139e;
     margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.wind h4 svg, .humidity h4 svg, .pressure h4 svg, .sunrise-sunset h4 svg {
+    margin-right: 0.5rem;
 }
 
 .wind p, .sunrise-sunset p {
-    margin-left: 0.5rem;
+    margin-left: 1.5rem;
 }
