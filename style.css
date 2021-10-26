@@ -2,7 +2,7 @@
 
 :root{
     --white: #DAE7E4;
-    --blue: #3901f6;
+    --blue: #0f0040;
     --cyan: #16e0bd;
     --pink: #f7139e;
     --yellow: #ffc04f;
@@ -147,6 +147,11 @@ html, body {
 
 .feels-like {
     display: flex;
+}
+
+#feels_like {
+    margin-left: 0.2rem;
+    margin-bottom: 0.5rem;
 }
 
 .city {
